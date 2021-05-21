@@ -16,7 +16,7 @@
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <DebugChecksum>
-        <Checksum>3759098874</Checksum>
+        <Checksum>1398411643</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -32,28 +32,30 @@
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
     </TermIOLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
     <CallStackLog>
         <Enabled>0</Enabled>
     </CallStackLog>
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
     <DisassembleMode>
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\src\simple_io_main_sp.c}.52.1" 0 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\simple_io_main_sp.c}.52.1" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\src\simple_io_main_sp.c}.45.1" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\simple_io_main_sp.c}.45.1" 0 0 0 0 "" 0 ""</Bp1>
         <Count>2</Count>
     </Breakpoints>
     <Aliases>
         <A0>_ "C:\Jenkins\workspace\TivaWare-Git-Release\DriverLib\build\DriverLib.test\driverlib\gpio.c" ""</A0>
-        <Count>1</Count>
+        <A1>_ "C:\Projetos\EK-TM4C1294_IAR8-master\TivaWare_C_Series-2.1.4.178\driverlib\gpio.c" "C:\Projetos_Embarcados\IAR\Tiva_BareMetal_IAR8\driverlib\gpio.c"</A1>
+        <A2>_ "C:\Projetos\EK-TM4C1294_IAR8-master\TivaWare_C_Series-2.1.4.178\driverlib\systick.c" ""</A2>
+        <Count>3</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>
